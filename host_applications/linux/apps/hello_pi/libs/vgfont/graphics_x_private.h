@@ -32,13 +32,13 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #define VCOS_LOG_CATEGORY (&gx_log_cat)
 
-#include "EGL/egl.h"
-#include "EGL/eglext.h"
-#include "VG/openvg.h"
-#include "VG/vgu.h"
+#include <EGL/egl.h>
+#include <EGL/eglext.h>
+#include <VG/openvg.h>
+#include <VG/vgu.h>
 
 #include "vgfont.h"
-#include "bcm_host.h"
+#include <bcm_host.h>
 
 extern VCOS_LOG_CAT_T gx_log_cat;
 

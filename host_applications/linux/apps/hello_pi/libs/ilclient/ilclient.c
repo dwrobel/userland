@@ -47,11 +47,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <ctype.h>
 #include <assert.h>
 
-#include "interface/vcos/vcos.h"
-#include "interface/vcos/vcos_logging.h"
-#include "interface/vmcs_host/vchost.h"
+#include <interface/vcos/vcos.h>
+#include <interface/vcos/vcos_logging.h>
+#include <interface/vmcs_host/vchost.h>
 
-#include "IL/OMX_Broadcom.h"
+#include <IL/OMX_Broadcom.h>
 #include "ilclient.h"
 
 #define VCOS_LOG_CATEGORY (&ilclient_log_category)

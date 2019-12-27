@@ -31,7 +31,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <stdlib.h>
 #include <string.h>
 
-#include "bcm_host.h"
+#include <bcm_host.h>
 #include "ilclient.h"
 
 static int video_decode_test(char *filename)

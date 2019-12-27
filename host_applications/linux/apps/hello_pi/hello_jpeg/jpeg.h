@@ -40,7 +40,7 @@ jpeg images from the camera
 #include <string.h>
 #include <errno.h>
 
-#include "bcm_host.h"
+#include <bcm_host.h>
 #include "ilclient.h"
 
 #define OMXJPEG_OK                  0

@@ -34,7 +34,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <unistd.h>
 #include <semaphore.h>
 
-#include "bcm_host.h"
+#include <bcm_host.h>
 #include "ilclient.h"
 
 #define N_WAVE          1024    /* dimension of Sinewave[] */
