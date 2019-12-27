@@ -29,9 +29,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <stdio.h>
 #include <stdint.h>
 
-#include "GLES/gl.h"
-#include "EGL/egl.h"
-#include "EGL/eglext.h"
+#include <GLES/gl.h>
+#include <EGL/egl.h>
+#include <EGL/eglext.h>
 #include "models.h"
 
 #define VMCS_RESOURCE(a,b) (b)

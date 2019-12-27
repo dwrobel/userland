@@ -34,7 +34,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <unistd.h>
 #include <sys/time.h>
 
-#include "bcm_host.h"
+#include <bcm_host.h>
 
 #define WIDTH   200
 #define HEIGHT  200

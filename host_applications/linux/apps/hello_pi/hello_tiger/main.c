@@ -41,13 +41,13 @@
 #define UNREF(X) ((void)(X))
 
 #ifdef HG_FLAT_INCLUDES
-#	include "openvg.h"
-#	include "vgu.h"
-#	include "egl.h"
+#	include <openvg.h>
+#	include <vgu.h>
+#	include <egl.h>
 #else
-#	include "VG/openvg.h"
-#	include "VG/vgu.h"
-#	include "EGL/egl.h"
+#	include <VG/openvg.h>
+#	include <VG/vgu.h>
+#	include <EGL/egl.h>
 #endif
 
 #include "revision.h"
@@ -481,7 +481,7 @@ int main(void)
 //TODO
 
 #elif defined __RASPBERRYPI__
-#include "bcm_host.h"
+#include <bcm_host.h>
 int main(void)
 {
    uint32_t width, height;

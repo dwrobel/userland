@@ -33,7 +33,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <assert.h>
 #include <unistd.h>
 
-#include "bcm_host.h"
+#include <bcm_host.h>
 #include "vgfont.h"
 
 #include "revision.h"
