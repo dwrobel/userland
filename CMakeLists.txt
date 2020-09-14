@@ -130,5 +130,10 @@ if(PKG_CONFIG_FOUND)
 			DESTINATION "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_LIBDIR}/pkgconfig")
 	endforeach()
 endif()
+
+configure_file("ld-conf/raspberrypi-vc-libs.conf.in" "raspberrypi-vc-libs.conf" @ONLY)
+install(FILES       "${CMAKE_CURRENT_BINARY_DIR}/raspberrypi-vc-libs.conf"
+        DESTINATION "${CMAKE_INSTALL_FULL_SYSCONFDIR}/ld.so.conf.d")
+
 # Remove cache entry, if one added by command line
 unset(KHRONOS_EGL_PLATFORM CACHE)
